@@ -1,0 +1,9 @@
+# ENVIRONMENT
+
+export PATH="~/bin:vendor/bin:$PATH"
+export MC_SKIN=$HOME/.mc/solarized.ini
+
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors/dircolors.256dark && eval "$(dircolors -b ~/.dircolors/dircolors.256dark)" || eval "$(dircolors -b)"
+fi
+
