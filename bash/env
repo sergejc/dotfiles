@@ -1,9 +1,12 @@
 # ENVIRONMENT
 
-export PATH="~/bin:vendor/bin:$PATH"
+export PATH="vendor/bin:$HOME/.composer/vendor/bin:$PATH"
 export MC_SKIN=$HOME/.mc/solarized.ini
 
-if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors/dircolors.256dark && eval "$(dircolors -b ~/.dircolors/dircolors.256dark)" || eval "$(dircolors -b)"
+if [[ -r /usr/share/powerline/zsh/powerline.zsh ]]; then
+    source /usr/share/powerline/zsh/powerline.zsh
 fi
 
+if [ -x /usr/bin/dircolors ]; then
+    eval "$(dircolors ~/.foldercolors/dircolors.ansi-dark)"
+fi
