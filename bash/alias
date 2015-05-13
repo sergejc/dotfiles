@@ -19,6 +19,8 @@ alias grep='grep --colour=auto'
 
 alias -s {html,htm}=chromium-browser
 
+alias subl="subl -n ."
+
 hash -d log=/var/log/
 hash -d www=/var/www/
 
