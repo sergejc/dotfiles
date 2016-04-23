@@ -27,10 +27,6 @@ setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE
 setopt HIST_REDUCE_BLANKS
 
-# UK Keyboard
-xmodmap -e "clear mod5"
-xmodmap -e "keycode 108 = Alt_L"
-
 # Vi mode
 set -o vi
 bindkey -v
