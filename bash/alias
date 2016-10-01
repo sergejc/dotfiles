@@ -20,3 +20,4 @@ hash -d log=/var/log/
 hash -d www=/var/www/
 
 autoload -U pick-web-browser
+alias node=nodejs
