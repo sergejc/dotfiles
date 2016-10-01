@@ -10,3 +10,5 @@ fi
 if [ -x /usr/bin/dircolors ]; then
     eval "$(dircolors ~/.foldercolors/dircolors.ansi-dark)"
 fi
+
+if [ "$TMUX" = "" ]; then tmux; fi

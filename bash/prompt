@@ -33,3 +33,5 @@ bindkey -v
 
 # Zsh history search
 bindkey '^R' history-incremental-search-backward
+
+export KEYTIMEOUT=1
