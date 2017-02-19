@@ -1,3 +1,5 @@
+#!/bin/bash
+
 take () {
 	mkdir $1
 	cd $1

@@ -1,5 +1,6 @@
-# ENVIRONMENT
+#!/bin/bash
 
+# ENVIRONMENT
 export PATH="vendor/bin:$HOME/.composer/vendor/bin:$HOME/.npm-global/bin:$PATH"
 export MC_SKIN=$HOME/.mc/solarized.ini
 
