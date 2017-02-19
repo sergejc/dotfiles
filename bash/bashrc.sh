@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # main bashrc file
-source ~/dotfiles/bash/env
-source ~/dotfiles/bash/alias
-source ~/dotfiles/bash/prompt
-source ~/dotfiles/bash/functions
+source ~/dotfiles/bash/env.sh
+source ~/dotfiles/bash/alias.sh
+source ~/dotfiles/bash/prompt.sh
+source ~/dotfiles/bash/functions.sh
