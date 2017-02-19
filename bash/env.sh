@@ -12,4 +12,8 @@ if [ -x /usr/bin/dircolors ]; then
     eval "$(dircolors ~/.foldercolors/dircolors.ansi-dark)"
 fi
 
+if [[ $ITERM_PROFILE == "Light" ]]; then
+    ZSH_THEME="robbyrussell"
+fi
+
 if [ "$TMUX" = "" ]; then tmux; fi
