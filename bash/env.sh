@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ENVIRONMENT
-export PATH="vendor/bin:$HOME/.composer/vendor/bin:$HOME/.npm-global/bin:$PATH"
+export PATH="vendor/bin:$HOME/.config/composer/vendor/bin:$HOME/.npm-global/bin:$PATH"
 export MC_SKIN=$HOME/.mc/solarized.ini
 
 if [[ -r /usr/share/powerline/zsh/powerline.zsh ]]; then
